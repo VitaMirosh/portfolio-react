@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Nav.module.css';
 
+
 function Nav() {
     return (
         <div className={s.nav}>
@@ -8,7 +9,6 @@ function Nav() {
             <a href=''>SKILLS</a>
             <a href=''>PROJECTS</a>
             <a href=''>CONTACTS</a>
-
         </div>
     );
 }
